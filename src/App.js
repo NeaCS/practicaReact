@@ -12,7 +12,7 @@ import AjaxApi from "./components/AjaxApi"
 import ContadorHooks from "./components/ContadorHooks";
 import ScrollHooks from "./components/ScrollHook";
 import "./App.css";
-
+import RelojHooks from "./components/RelojHooks";
 
 
 
@@ -67,6 +67,7 @@ function App() {
           <ContadorHooks/>
           <ScrollHooks/>
           
+         <RelojHooks/>
         </section>
       </header>
     </div>

@@ -32,7 +32,7 @@ export default class RenderizadoElementos extends Component {
         <h3>Frameworks Frontend JavaScript</h3>
         <ul>
           {data.frameworks.map((el) => (
-            <ElementoLista key={el.id} el={el} />
+            <ElementoLista el={el} />
           ))}
         </ul>
       </div>
