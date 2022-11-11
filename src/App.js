@@ -1,6 +1,5 @@
 import React from "react";
 import logo from "./logo.svg";
-import "./App.css";
 import Componente from "./components/Componente";
 import Propiedades from "./components/Propiedades";
 import Estado from "./components/Estado";
@@ -10,6 +9,9 @@ import { EventosES6, EventosES7, MasSobreEventos } from "./components/Eventos";
 import ComunicacionComponentes from "./components/ComunicacionComponentes";
 import CicloDeVida from "./components/CicloDeVida";
 import AjaxApi from "./components/AjaxApi"
+import ContadorHooks from "./components/ContadorHooks";
+import ScrollHooks from "./components/ScrollHook";
+import "./App.css";
 
 
 
@@ -62,6 +64,9 @@ function App() {
           <ComunicacionComponentes/>
           <CicloDeVida/>
           <AjaxApi/>
+          <ContadorHooks/>
+          <ScrollHooks/>
+          
         </section>
       </header>
     </div>
