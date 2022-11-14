@@ -13,6 +13,11 @@ import ContadorHooks from "./components/ContadorHooks";
 import ScrollHooks from "./components/ScrollHook";
 import "./App.css";
 import RelojHooks from "./components/RelojHooks";
+import AjaxHooks from "./components/AjaxHooks";
+import HooksPersonalizados from "./components/HooksPersonalizados";
+import Referencias from "./components/Referencias";
+import Formularios from "./components/Forumlarios";
+
 
 
 
@@ -61,13 +66,31 @@ function App() {
           <EventosES7 />
           <hr />
           <MasSobreEventos />
-          <ComunicacionComponentes/>
-          <CicloDeVida/>
-          <AjaxApi/>
-          <ContadorHooks/>
-          <ScrollHooks/>
-          
-         <RelojHooks/>
+          <ComunicacionComponentes />
+          <CicloDeVida />
+          <AjaxApi />
+          <ContadorHooks />
+          <ScrollHooks />
+
+          <RelojHooks />
+
+          <hr />
+
+          <AjaxHooks />
+
+          <HooksPersonalizados/>
+
+          <Referencias/>
+          <Formularios/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
         </section>
       </header>
     </div>
