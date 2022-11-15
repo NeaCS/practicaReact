@@ -17,6 +17,7 @@ import AjaxHooks from "./components/AjaxHooks";
 import HooksPersonalizados from "./components/HooksPersonalizados";
 import Referencias from "./components/Referencias";
 import Formularios from "./components/Forumlarios";
+import Estilos from "./components/Estilos";
 
 
 
@@ -82,6 +83,8 @@ function App() {
 
           <Referencias/>
           <Formularios/>
+
+          <Estilos/>
           <br/>
           <br/>
           <br/>
