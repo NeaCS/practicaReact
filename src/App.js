@@ -18,6 +18,7 @@ import HooksPersonalizados from "./components/HooksPersonalizados";
 import Referencias from "./components/Referencias";
 import Formularios from "./components/Forumlarios";
 import Estilos from "./components/Estilos";
+import ComponentesEstilizados from "./components/ComponentesEstilizados";
 
 
 
@@ -85,6 +86,7 @@ function App() {
           <Formularios/>
 
           <Estilos/>
+          <ComponentesEstilizados/>
           <br/>
           <br/>
           <br/>
@@ -101,3 +103,4 @@ function App() {
 }
 
 export default App;
+ 
